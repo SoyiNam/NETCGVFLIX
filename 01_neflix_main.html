@@ -1,0 +1,1083 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>neflix</title>
+    <link rel="icon" href="./img/movie.ico">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style/reset.css">
+    <link rel="stylesheet" href="./style/01_neflix_main.css">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Angkor&family=Inter:wght@100..900&family=Nanum+Gothic&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Angkor&family=Edu+NSW+ACT+Foundation:wght@400..700&family=Inter:wght@100..900&family=Nanum+Gothic&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <a href="#none" class="top_banner_wrap">
+        <img src="./img/top_banner.jpg" alt="오픈 더 도어 광고 배너 / 10월 25일 개봉">
+    </a>
+    <header class="header" id="header">
+        <div class="header_top_wrap">
+            <h1>
+                <a href="#none" class="logo_wrap">
+                    <img src="./img/Netflix_Logo.png" alt="넷플릭스">
+                </a>
+            </h1>
+            <a href="#none" class="top_small_banner">
+                <img src="img/top_small_banner.png" alt="현대카드 6천 M포인트 사용">
+            </a>
+            <div>
+                <h2 class="hide">사용자 메뉴</h2>
+                <ul class="my_menu">
+                    <li><a href="#none"><img src="./img/loginJoin.png" alt="">로그인</a></li>
+                    <li><a href="./02_neflix_join.html"><img src="./img/loginMember.png" alt="">회원가입</a></li>
+                    <li><a href="#none"><img src="./img/loginMember.png" alt="">MY CGV</a></li>
+                    <li><a href="#none"><img src="./img/loginCustomer.png" alt="">고객센터</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="header_bottom">
+            <div class="gnb">
+                <nav class="gnb_wrap">
+                    <h2 class="hide">전체 서비스</h2>
+                    <ul>
+                        <li><a href="#none">영화</a></li>
+                        <li><a href="#none">극장</a></li>
+                        <li><a href="#none">예매</a></li>
+                        <li><a href="#none">스토어</a></li>
+                        <li><a href="#none">이벤트</a></li>
+                        <li><a href="#none">혜택</a></li>
+                    </ul>
+                </nav>
+                <form name="" action="" method="get" class="search_box">
+                    <fieldset>
+                        <legend class="hide">검색창</legend>
+                        <label for="search_txt" class="hide">입력</label>
+                        <input type="text" name="search_txt" id="search_txt">
+                        <button type="submit">검색</button>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </header>
+    <main id="main" class="main">
+        <section class="main_movie_wrap">
+            <div class="main_movie">
+                <h2>이두나!</h2>
+                <p>올가을 최고의 감성 연애 스토리!<br>11월 1일 대개봉</p>
+                <video class="video" autoplay muted loop>
+                    <source src="./img/Leedona.mp4" type="video/mp4">
+                </video>
+                <div class="main_movie_btn">
+                    <a href="#none" class="btn_detail_info">상세보기</a>
+                    <a href="#none" class="play">정지</a>
+                    <a href="#none" class="stop">재생</a>
+                    <a href="#none" class="soundOn">소리</a>
+                    <a href="#none" class="soundOff">소리OFF</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="movie_chart_wrap">
+            <div class="movie_chart_bg">
+                <div>
+                    <h2 class="category--selected cate01" data-category="chart">무비차트</h2>
+                    <div class="mask projects" data-type="movie-chart">
+                        <div class="movie_chart">
+                            <div class="smallbox_movie">
+                                <ul>
+                                    <li>
+                                        <img src="./img/chart01.jpg" alt="">
+                                        <span class="grd"></span>
+                                        <p class="movie_title">이두나</p>
+                                        <ul>
+                                            <li class="movie_rank"><span class="hide">차트 순위 : </span>1</li>
+                                            <li class="movie_grade_all">상영 등급 : ALL</li>
+                                            <li class="movie_d-day">D-6</li>
+                                            <li class="movie_screen_type">
+                                                <span class="hide">상영관 종류 : </span>
+                                                <span class="screen_type_imax">IMAX</span>
+                                            </li>
+                                            <li class="prev_n"><span class="prev_n_a">사전 기대지수 </span>99%</li>
+                                            <li class="movie_ticketing_rate">예매율 55.1%</li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <img src="./img/chart02.webp" alt="">
+                                        <span class="grd"></span>
+                                        <p class="movie_title">힘쎈여자 강남순</p>
+                                        <ul>
+                                            <li class="movie_rank"><span class="hide">차트 순위 : </span>2</li>
+                                            <li class="movie_grade_18">>상영 등급 : 18</li>
+                                            <li class="movie_d-day">D-2</li>
+                                            <li class="movie_screen_type">
+                                                <span class="hide">상영관 종류 : </span>
+                                                <span class="screen_type_imax">IMAX</span>
+                                            </li>
+                                            <li class="prev_n"><span class="prev_n_a">사전 기대지수 </span>99%</li>
+                                            <li class="movie_ticketing_rate">예매율 55.1%</li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <img src="./img/chart03.webp" alt="">
+                                        <span class="grd"></span>
+                                        <p class="movie_title">약사의 혼잣말</p>
+                                        <ul>
+                                            <li class="movie_rank"><span class="hide">차트 순위 : </span>3</li>
+                                            <li class="movie_grade_18">>상영 등급 : 18</li>
+                                            <li class="movie_screen_type">
+                                                <span class="hide">상영관 종류 : </span>
+                                                <span class="screen_type_imax">IMAX</span>
+                                            </li>
+                                            <li class="prev_n"><span class="prev_n_a">사전 기대지수 </span>99%</li>
+                                            <li class="movie_ticketing_rate">예매율 55.1%</li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <img src="./img/chart04.webp" alt="">
+                                        <span class="grd"></span>
+                                        <p class="movie_title">오늘도 내일도 사랑스럽개</p>
+                                        <ul>
+                                            <li class="movie_rank"><span class="hide">차트 순위 : </span>4</li>
+                                            <li class="movie_grade_12">>상영 등급 : 12</li>
+                                            <li class="movie_d-day">D-1</li>
+                                            <li class="movie_screen_type">
+                                                <span class="hide">상영관 종류 : </span>
+                                                <span class="screen_type_imax">IMAX</span>
+                                            </li>
+                                            <li class="prev_n"><span class="prev_n_a">사전 기대지수 </span>99%</li>
+                                            <li class="movie_ticketing_rate">예매율 55.1%</li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <img src="./img/chart07.jpeg" alt="">
+                                        <span class="grd"></span>
+                                        <p class="movie_title">스파이 패밀리</p>
+                                        <ul>
+                                            <li class="movie_rank"><span class="hide">차트 순위 : </span>5</li>
+                                            <li class="movie_grade_15">>상영 등급 : 15</li>
+                                            <li class="movie_d-day">D-9</li>
+                                            <li class="movie_screen_type">
+                                                <span class="hide">상영관 종류 : </span>
+                                                <span class="screen_type_imax">IMAX</span>
+                                            </li>
+                                            <li class="prev_n"><span class="prev_n_a">사전 기대지수 </span>99%</li>
+                                            <li class="movie_ticketing_rate">예매율 55.1%</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="smallbox_movie">
+                                <ul>
+                                    <li>
+                                        <img src="./img/chart01.jpg" alt="">
+                                        <span class="grd"></span>
+                                        <p class="movie_title">이두나</p>
+                                        <ul>
+                                            <li class="movie_rank"><span class="hide">차트 순위 : </span>6</li>
+                                            <li class="movie_grade_all">상영 등급 : ALL</li>
+                                            <li class="movie_d-day">D-6</li>
+                                            <li class="movie_screen_type">
+                                                <span class="hide">상영관 종류 : </span>
+                                                <span class="screen_type_imax">IMAX</span>
+                                            </li>
+                                            <li class="prev_n"><span class="prev_n_a">사전 기대지수 </span>99%</li>
+                                            <li class="movie_ticketing_rate">예매율 55.1%</li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <img src="./img/chart01.jpg" alt="">
+                                        <span class="grd"></span>
+                                        <p class="movie_title">이두나</p>
+                                        <ul>
+                                            <li class="movie_rank"><span class="hide">차트 순위 : </span>7</li>
+                                            <li class="movie_grade_all">상영 등급 : ALL</li>
+                                            <li class="movie_d-day">D-6</li>
+                                            <li class="movie_screen_type">
+                                                <span class="hide">상영관 종류 : </span>
+                                                <span class="screen_type_imax">IMAX</span>
+                                            </li>
+                                            <li class="prev_n"><span class="prev_n_a">사전 기대지수 </span>99%</li>
+                                            <li class="movie_ticketing_rate">예매율 55.1%</li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <img src="./img/chart01.jpg" alt="">
+                                        <span class="grd"></span>
+                                        <p class="movie_title">이두나</p>
+                                        <ul>
+                                            <li class="movie_rank"><span class="hide">차트 순위 : </span>8</li>
+                                            <li class="movie_grade_all">상영 등급 : ALL</li>
+                                            <li class="movie_d-day">D-6</li>
+                                            <li class="movie_screen_type">
+                                                <span class="hide">상영관 종류 : </span>
+                                                <span class="screen_type_imax">IMAX</span>
+                                            </li>
+                                            <li class="prev_n"><span class="prev_n_a">사전 기대지수 </span>99%</li>
+                                            <li class="movie_ticketing_rate">예매율 55.1%</li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <img src="./img/chart01.jpg" alt="">
+                                        <span class="grd"></span>
+                                        <p class="movie_title">이두나</p>
+                                        <ul>
+                                            <li class="movie_rank"><span class="hide">차트 순위 : </span>9</li>
+                                            <li class="movie_grade_all">상영 등급 : ALL</li>
+                                            <li class="movie_d-day">D-6</li>
+                                            <li class="movie_screen_type">
+                                                <span class="hide">상영관 종류 : </span>
+                                                <span class="screen_type_imax">IMAX</span>
+                                            </li>
+                                            <li class="prev_n"><span class="prev_n_a">사전 기대지수 </span>99%</li>
+                                            <li class="movie_ticketing_rate">예매율 55.1%</li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <img src="./img/chart01.jpg" alt="">
+                                        <span class="grd"></span>
+                                        <p class="movie_title">이두나</p>
+                                        <ul>
+                                            <li class="movie_rank"><span class="hide">차트 순위 : </span>10</li>
+                                            <li class="movie_grade_all">상영 등급 : ALL</li>
+                                            <li class="movie_d-day">D-6</li>
+                                            <li class="movie_screen_type">
+                                                <span class="hide">상영관 종류 : </span>
+                                                <span class="screen_type_imax">IMAX</span>
+                                            </li>
+                                            <li class="prev_n"><span class="prev_n_a">사전 기대지수 </span>99%</li>
+                                            <li class="movie_ticketing_rate">예매율 55.1%</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="smallbox_movie">
+                                <ul>
+                                    <li>
+                                        <img src="./img/chart01.jpg" alt="">
+                                        <span class="grd"></span>
+                                        <p class="movie_title">이두나</p>
+                                        <ul>
+                                            <li class="movie_rank"><span class="hide">차트 순위 : </span>11</li>
+                                            <li class="movie_grade_18">상영 등급 : ALL</li>
+                                            <li class="movie_d-day">D-6</li>
+                                            <li class="movie_screen_type">
+                                                <span class="hide">상영관 종류 : </span>
+                                                <span class="screen_type_imax">IMAX</span>
+                                            </li>
+                                            <li class="prev_n"><span class="prev_n_a">사전 기대지수 </span>99%</li>
+                                            <li class="movie_ticketing_rate">예매율 55.1%</li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <img src="./img/chart01.jpg" alt="">
+                                        <span class="grd"></span>
+                                        <p class="movie_title">이두나</p>
+                                        <ul>
+                                            <li class="movie_rank"><span class="hide">차트 순위 : </span>12</li>
+                                            <li class="movie_grade_all">상영 등급 : ALL</li>
+                                            <li class="movie_d-day">D-6</li>
+                                            <li class="movie_screen_type">
+                                                <span class="hide">상영관 종류 : </span>
+                                                <span class="screen_type_imax">IMAX</span>
+                                            </li>
+                                            <li class="prev_n"><span class="prev_n_a">사전 기대지수 </span>99%</li>
+                                            <li class="movie_ticketing_rate">예매율 55.1%</li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <img src="./img/chart01.jpg" alt="">
+                                        <span class="grd"></span>
+                                        <p class="movie_title">이두나</p>
+                                        <ul>
+                                            <li class="movie_rank"><span class="hide">차트 순위 : </span>13</li>
+                                            <li class="movie_grade_all">상영 등급 : ALL</li>
+                                            <li class="movie_d-day">D-6</li>
+                                            <li class="movie_screen_type">
+                                                <span class="hide">상영관 종류 : </span>
+                                                <span class="screen_type_imax">IMAX</span>
+                                            </li>
+                                            <li class="prev_n"><span class="prev_n_a">사전 기대지수 </span>99%</li>
+                                            <li class="movie_ticketing_rate">예매율 55.1%</li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <img src="./img/chart01.jpg" alt="">
+                                        <span class="grd"></span>
+                                        <p class="movie_title">이두나</p>
+                                        <ul>
+                                            <li class="movie_rank"><span class="hide">차트 순위 : </span>14</li>
+                                            <li class="movie_grade_all">상영 등급 : ALL</li>
+                                            <li class="movie_d-day">D-6</li>
+                                            <li class="movie_screen_type">
+                                                <span class="hide">상영관 종류 : </span>
+                                                <span class="screen_type_imax">IMAX</span>
+                                            </li>
+                                            <li class="prev_n"><span class="prev_n_a">사전 기대지수 </span>99%</li>
+                                            <li class="movie_ticketing_rate">예매율 55.1%</li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <img src="./img/chart01.jpg" alt="">
+                                        <span class="grd"></span>
+                                        <p class="movie_title">이두나</p>
+                                        <ul>
+                                            <li class="movie_rank"><span class="hide">차트 순위 : </span>15</li>
+                                            <li class="movie_grade_all">상영 등급 : ALL</li>
+                                            <li class="movie_d-day">D-6</li>
+                                            <li class="movie_screen_type">
+                                                <span class="hide">상영관 종류 : </span>
+                                                <span class="screen_type_imax">IMAX</span>
+                                            </li>
+                                            <li class="prev_n"><span class="prev_n_a">사전 기대지수 </span>99%</li>
+                                            <li class="movie_ticketing_rate">예매율 55.1%</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <h2 class="cate02" data-category="tbd">상영예정작</h2>
+                    <div class="mask projects" data-type="tbd-chart">
+                        <div class="tbd_chart">
+                            <div class="smallbox_tbd">
+                                <ul>
+                                    <li>
+                                        <img src="./img/soon01.webp" alt="">
+                                        <span class="grd"></span>
+                                        <p class="movie_title">악마들</p>
+                                        <ul>
+                                            <li class="movie_rank"><span class="hide">차트 순위 : </span>1</li>
+                                            <li class="movie_grade_all">상영 등급 : ALL</li>
+                                            <li class="movie_d-day">D-6</li>
+                                            <li class="movie_screen_type">
+                                                <span class="hide">상영관 종류 : </span>
+                                                <span class="screen_type_imax">IMAX</span>
+                                            </li>
+                                            <li class="prev_n"><span class="prev_n_a">사전 기대지수 </span>99%</li>
+                                            <li class="movie_ticketing_rate">예매율 55.1%</li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <img src="./img/soon02.jpg" alt="">
+                                        <span class="grd"></span>
+                                        <p class="movie_title">발레리나</p>
+                                        <ul>
+                                            <li class="movie_rank"><span class="hide">차트 순위 : </span>2</li>
+                                            <li class="movie_grade_18">>상영 등급 : 18</li>
+                                            <li class="movie_d-day">D-2</li>
+                                            <li class="movie_screen_type">
+                                                <span class="hide">상영관 종류 : </span>
+                                                <span class="screen_type_imax">IMAX</span>
+                                            </li>
+                                            <li class="prev_n"><span class="prev_n_a">사전 기대지수 </span>99%</li>
+                                            <li class="movie_ticketing_rate">예매율 55.1%</li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <img src="./img/soon03.webp" alt="">
+                                        <span class="grd"></span>
+                                        <p class="movie_title">스파이더맨 : 어크로스 더 유니버스</p>
+                                        <ul>
+                                            <li class="movie_rank"><span class="hide">차트 순위 : </span>3</li>
+                                            <li class="movie_grade_18">>상영 등급 : 18</li>
+                                            <li class="movie_screen_type">
+                                                <span class="hide">상영관 종류 : </span>
+                                                <span class="screen_type_imax">IMAX</span>
+                                            </li>
+                                            <li class="prev_n"><span class="prev_n_a">사전 기대지수 </span>99%</li>
+                                            <li class="movie_ticketing_rate">예매율 55.1%</li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <img src="./img/soon04.webp" alt="">
+                                        <span class="grd"></span>
+                                        <p class="movie_title">피는 물보다 진하다</p>
+                                        <ul>
+                                            <li class="movie_rank"><span class="hide">차트 순위 : </span>4</li>
+                                            <li class="movie_grade_12">>상영 등급 : 12</li>
+                                            <li class="movie_d-day">D-1</li>
+                                            <li class="movie_screen_type">
+                                                <span class="hide">상영관 종류 : </span>
+                                                <span class="screen_type_imax">IMAX</span>
+                                            </li>
+                                            <li class="prev_n"><span class="prev_n_a">사전 기대지수 </span>99%</li>
+                                            <li class="movie_ticketing_rate">예매율 55.1%</li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <img src="./img/soon05.webp" alt="">
+                                        <span class="grd"></span>
+                                        <p class="movie_title">스플릿</p>
+                                        <ul>
+                                            <li class="movie_rank"><span class="hide">차트 순위 : </span>5</li>
+                                            <li class="movie_grade_15">>상영 등급 : 15</li>
+                                            <li class="movie_d-day">D-9</li>
+                                            <li class="movie_screen_type">
+                                                <span class="hide">상영관 종류 : </span>
+                                                <span class="screen_type_imax">IMAX</span>
+                                            </li>
+                                            <li class="prev_n"><span class="prev_n_a">사전 기대지수 </span>99%</li>
+                                            <li class="movie_ticketing_rate">예매율 55.1%</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="smallbox_tbd">
+                                <ul>
+                                    <li>
+                                        <img src="./img/soon01.webp" alt="">
+                                        <span class="grd"></span>
+                                        <p class="movie_title">악마들</p>
+                                        <ul>
+                                            <li class="movie_rank"><span class="hide">차트 순위 : </span>6</li>
+                                            <li class="movie_grade_all">상영 등급 : ALL</li>
+                                            <li class="movie_d-day">D-6</li>
+                                            <li class="movie_screen_type">
+                                                <span class="hide">상영관 종류 : </span>
+                                                <span class="screen_type_imax">IMAX</span>
+                                            </li>
+                                            <li class="prev_n"><span class="prev_n_a">사전 기대지수 </span>99%</li>
+                                            <li class="movie_ticketing_rate">예매율 55.1%</li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <img src="./img/soon02.jpg" alt="">
+                                        <span class="grd"></span>
+                                        <p class="movie_title">발레리나는 멋지다</p>
+                                        <ul>
+                                            <li class="movie_rank"><span class="hide">차트 순위 : </span>7</li>
+                                            <li class="movie_grade_18">>상영 등급 : 18</li>
+                                            <li class="movie_d-day">D-2</li>
+                                            <li class="movie_screen_type">
+                                                <span class="hide">상영관 종류 : </span>
+                                                <span class="screen_type_imax">IMAX</span>
+                                            </li>
+                                            <li class="prev_n"><span class="prev_n_a">사전 기대지수 </span>99%</li>
+                                            <li class="movie_ticketing_rate">예매율 55.1%</li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <img src="./img/soon03.webp" alt="">
+                                        <span class="grd"></span>
+                                        <p class="movie_title">스파이더맨 : 어크로스 더 유니버스</p>
+                                        <ul>
+                                            <li class="movie_rank"><span class="hide">차트 순위 : </span>8</li>
+                                            <li class="movie_grade_18">>상영 등급 : 18</li>
+                                            <li class="movie_screen_type">
+                                                <span class="hide">상영관 종류 : </span>
+                                                <span class="screen_type_imax">IMAX</span>
+                                            </li>
+                                            <li class="prev_n"><span class="prev_n_a">사전 기대지수 </span>99%</li>
+                                            <li class="movie_ticketing_rate">예매율 55.1%</li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <img src="./img/soon04.webp" alt="">
+                                        <span class="grd"></span>
+                                        <p class="movie_title">피는 물보다 진하다</p>
+                                        <ul>
+                                            <li class="movie_rank"><span class="hide">차트 순위 : </span>9</li>
+                                            <li class="movie_grade_12">>상영 등급 : 12</li>
+                                            <li class="movie_d-day">D-1</li>
+                                            <li class="movie_screen_type">
+                                                <span class="hide">상영관 종류 : </span>
+                                                <span class="screen_type_imax">IMAX</span>
+                                            </li>
+                                            <li class="prev_n"><span class="prev_n_a">사전 기대지수 </span>99%</li>
+                                            <li class="movie_ticketing_rate">예매율 55.1%</li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <img src="./img/soon05.webp" alt="">
+                                        <span class="grd"></span>
+                                        <p class="movie_title">스플릿</p>
+                                        <ul>
+                                            <li class="movie_rank"><span class="hide">차트 순위 : </span>10</li>
+                                            <li class="movie_grade_15">>상영 등급 : 15</li>
+                                            <li class="movie_d-day">D-9</li>
+                                            <li class="movie_screen_type">
+                                                <span class="hide">상영관 종류 : </span>
+                                                <span class="screen_type_imax">IMAX</span>
+                                            </li>
+                                            <li class="prev_n"><span class="prev_n_a">사전 기대지수 </span>99%</li>
+                                            <li class="movie_ticketing_rate">예매율 55.1%</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="smallbox_tbd">
+                                <ul>
+                                    <li>
+                                        <img src="./img/soon01.webp" alt="">
+                                        <span class="grd"></span>
+                                        <p class="movie_title">악마들</p>
+                                        <ul>
+                                            <li class="movie_rank"><span class="hide">차트 순위 : </span>11</li>
+                                            <li class="movie_grade_all">상영 등급 : ALL</li>
+                                            <li class="movie_d-day">D-6</li>
+                                            <li class="movie_screen_type">
+                                                <span class="hide">상영관 종류 : </span>
+                                                <span class="screen_type_imax">IMAX</span>
+                                            </li>
+                                            <li class="prev_n"><span class="prev_n_a">사전 기대지수 </span>99%</li>
+                                            <li class="movie_ticketing_rate">예매율 55.1%</li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <img src="./img/soon02.jpg" alt="">
+                                        <span class="grd"></span>
+                                        <p class="movie_title">발레리나</p>
+                                        <ul>
+                                            <li class="movie_rank"><span class="hide">차트 순위 : </span>12</li>
+                                            <li class="movie_grade_18">>상영 등급 : 18</li>
+                                            <li class="movie_d-day">D-2</li>
+                                            <li class="movie_screen_type">
+                                                <span class="hide">상영관 종류 : </span>
+                                                <span class="screen_type_imax">IMAX</span>
+                                            </li>
+                                            <li class="prev_n"><span class="prev_n_a">사전 기대지수 </span>99%</li>
+                                            <li class="movie_ticketing_rate">예매율 55.1%</li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <img src="./img/soon03.webp" alt="">
+                                        <span class="grd"></span>
+                                        <p class="movie_title">스파이더맨 : 어크로스 더 유니버스</p>
+                                        <ul>
+                                            <li class="movie_rank"><span class="hide">차트 순위 : </span>13</li>
+                                            <li class="movie_grade_18">>상영 등급 : 18</li>
+                                            <li class="movie_screen_type">
+                                                <span class="hide">상영관 종류 : </span>
+                                                <span class="screen_type_imax">IMAX</span>
+                                            </li>
+                                            <li class="prev_n"><span class="prev_n_a">사전 기대지수 </span>99%</li>
+                                            <li class="movie_ticketing_rate">예매율 55.1%</li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <img src="./img/soon04.webp" alt="">
+                                        <span class="grd"></span>
+                                        <p class="movie_title">피는 물보다 진하다</p>
+                                        <ul>
+                                            <li class="movie_rank"><span class="hide">차트 순위 : </span>14</li>
+                                            <li class="movie_grade_12">>상영 등급 : 12</li>
+                                            <li class="movie_d-day">D-1</li>
+                                            <li class="movie_screen_type">
+                                                <span class="hide">상영관 종류 : </span>
+                                                <span class="screen_type_imax">IMAX</span>
+                                            </li>
+                                            <li class="prev_n"><span class="prev_n_a">사전 기대지수 </span>99%</li>
+                                            <li class="movie_ticketing_rate">예매율 55.1%</li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <img src="./img/soon05.webp" alt="">
+                                        <span class="grd"></span>
+                                        <p class="movie_title">스플릿</p>
+                                        <ul>
+                                            <li class="movie_rank"><span class="hide">차트 순위 : </span>15</li>
+                                            <li class="movie_grade_15">>상영 등급 : 15</li>
+                                            <li class="movie_d-day">D-9</li>
+                                            <li class="movie_screen_type">
+                                                <span class="hide">상영관 종류 : </span>
+                                                <span class="screen_type_imax">IMAX</span>
+                                            </li>
+                                            <li class="prev_n"><span class="prev_n_a">사전 기대지수 </span>99%</li>
+                                            <li class="movie_ticketing_rate">예매율 55.1%</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <a href="#none" class="detail">전체보기</a>
+                <a href="#none" class="pre">이전</a>
+                <a href="#none" class="next">다음</a>
+            </div>
+        </section>
+
+        <section class=" event">
+            <h2>EVENT</h2>
+            <div class="mask">
+                <ul class="eventBox1">
+                    <li>
+                        <a href="#none">
+                            <img src="./img/event01.jpg" alt="">
+                            <p class="event_title"> [에밀리 파리에 가다] 항공권 증정 이벤트<br>
+                                <span class="event_date">2023.10.16~2023.10.31</span>
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#none">
+                            <img src="./img/event02.webp" alt="">
+                            <p class="event_title"> [블루 발렌타인] 이별 상담 전문가 카운슬링 <br>
+                                <span class="event_date">2023.10.24~2023.11.07</span>
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#none">
+                            <img src="./img/event03.jpg" alt="">
+                            <p class="event_title"> [DP 시즌2] IMAX 포스터<br>
+                                <span class="event_date">2023.10.20~2023.11.07</span>
+                            </p>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="eventBox2">
+                    <li>
+                        <a href="#none">
+                            <img src="./img/event04.jpg" alt="">
+                            <p class="event_title">[톡 투 미] 필름마크<br>
+                                <span class="event_date">2023.10.27~2023.11.19</span>
+                            </p>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#none">
+                            <img src="./img/event04.jpg" alt="">
+                            <p class="event_title">[톡 투 미] 필름마크<br>
+                                <span class="event_date">2023.10.27~2023.11.19</span>
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#none">
+                            <img src="./img/event04.jpg" alt="">
+                            <p class="event_title">[톡 투 미] 필름마크<br>
+                                <span class="event_date">2023.10.27~2023.11.19</span>
+                            </p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="play_stop">
+                <button type="button" class="play" onclick="eventSlide()">재생</button>
+                <button type="button" class="stop">정지</button>
+            </div>
+            <a href="#none" class="detail">전체보기</a>
+        </section>
+
+        <section class="specialHall">
+            <h2>특별관</h2>
+            <ul>
+                <li class="specialHall_img">
+                    <a href="#none" class="img_hall">
+                        <img src="./img/special00.jpg" alt="">
+                    </a>
+                </li>
+                <li class="specialHall_img">
+                    <a href="#none" class="img_hall">
+                        <img src="./img/specia01.webp" alt="">
+                    </a>
+                </li>
+                <li class="specialHall_img">
+                    <a href="#none" class="img_hall">
+                        <img src="./img/specia02.webp" alt="">
+                    </a>
+                </li>
+                <li class="specialHall_img">
+                    <a href="#none" class="img_hall">
+                        <img src="./img/specia03.jpg" alt="">
+                    </a>
+                </li>
+            </ul>
+
+            <ul class="specialHall_list">
+                <li class="specialHall_item special_select">
+                    <a href="#none" class="special_text ">
+                        <span class="special_title">SUITE CINEMA</span>
+                        <span class="special_hash">#호텔 컨셉의 프리미엄관</span>
+                    </a>
+                </li>
+                <li class="specialHall_item">
+                    <a href="#none" class="special_text">
+                        <span class="special_title">CINE & LIVINGROOM</span>
+                        <span class="special_hash">#신개념 소셜 상영관</span>
+                    </a>
+                </li>
+                <li class="specialHall_item">
+                    <a href="#none" class="special_text">
+                        <span class="special_title"> 4DX</span>
+                        <span class="special_hash">#모션시트 #오감체험</span>
+                    </a>
+                </li>
+                <li class="specialHall_item">
+                    <a href="#none" class="special_text">
+                        <span class="special_title">CINE de CHEF</span>
+                        <span class="special_hash">#쉐프가 있는 영화관</span>
+                    </a>
+                </li>
+            </ul>
+
+            <a href="#none" class="detail">전체보기</a>
+        </section>
+
+        <div class="office_news_director">
+            <section class="package">
+                <h2>오피스</h2>
+                <ul>
+                    <li>
+                        <a href="#none">
+                            <img src="./img/office01.jpg" alt="">
+                            <span class="package_desc01">넷플릭스 본사 전경
+                                <span class="package_desc02">LA</span>
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#none">
+                            <img src="./img/office02.jpg" alt="">
+                            <span class=package_desc01t">넷플릭스 사무실 전경
+                                <span class="package_desc02">LONDON</span>
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#none">
+                            <img src="./img/office03.jpg" alt="">
+                            <span class="package_desc01">넷플릭스 사무실 전경
+                                <span class="package_desc02">SINGAPORE</span>
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+                <a href="#none" class="more">더보기</a>
+            </section>
+            <section class="package">
+                <h2>최신 뉴스</h2>
+                <ul>
+                    <li>
+                        <a href="#none">
+                            <img src="./img/news01.jpg" alt="">
+                            <span class="package_desc01">2023년 11월 2일
+                                <span class="package_desc02">계정 관련 업데이트</span>
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#none">
+                            <img src="./img/news02.png" alt="">
+                            <span class="package_desc01">2023년 11월 9일
+                                <span class="package_desc02">넷플릭스 시리즈 <악연> 제작 확정</span>
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#none">
+                            <img src="./img/news03.png" alt="">
+                            <span class="package_text">2023년 11월 7일
+                                <span class="package_desc02">데블스플랜, 시즌2 제작 확정!</span>
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+                <a href="#none" class="more">더보기</a>
+            </section>
+            <section class="package">
+                <h2>경영진</h2>
+                <ul>
+                    <li>
+                        <a href="#none">
+                            <img src="./img/director01.jpg" alt="넷플릭스 경영진, 덱스">
+                            <span class="package_desc01">덱스
+                                <span class="package_desc02">최고 콘텐츠 책임자(CCO)</span>
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#none">
+                            <img src="./img/director02.jpg" alt="넷플릭스 경영진, 데이비드 하이먼">
+                            <span class="package_desc01">데이비드 하이먼
+                                <span class="package_desc02">최고 법무 책임자(CLO)</span>
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#none">
+                            <img src="./img/director03.jpg" alt="넷플릭스 경영진, 마리아 페레라스">
+                            <span class="package_desc01">마리아 페레라스
+                                <span class="package_desc02">파트너십 글로벌 수석</span>
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+                <a href="#none" class="more">더보기</a>
+            </section>
+        </div>
+
+        <div class="main_bottom">
+            <div class="notice_customer_app">
+                <div class="notice_customer">
+                    <section class="notice">
+                        <h2>공지사항</h2>
+                        <p>
+                            <a href="#none">
+                                [시스템 점검]북앤라이프 도서문화상품권 시스템 점검
+                            </a>
+                        </p>
+                        <a class="more" href="#none">더보기</a>
+                    </section>
+
+                    <section class="customer_center">
+                        <div class="customer_center_top">
+                            <h2>고객센터</h2>
+                            <dl>
+                                <dt>1544-1122</dt>
+                                <dd>고객센터 운영시간 (평일 09:00~18:00)</dd>
+                                <dd>업무시간 외 자동응답 안내 가능합니다.</dd>
+                            </dl>
+                        </div>
+
+                        <ul>
+                            <li><a href="#none">FAQ</a></li>
+                            <li><a href="#none">1:1 문의</a></li>
+                            <li><a href="#none">대관/단체 문의</a></li>
+                        </ul>
+                    </section>
+                </div>
+                <section class="app_download">
+                    <h2>앱 다운로드</h2>
+                    <p>CGV앱에서 더 편리하게 이용하세요.</p>
+                    <img src="./img/qr.gif" alt="">
+                    <p>QR코드를 스캔하고<br>앱설치 페이지로 바로 이동하세요.</p>
+                </section>
+            </div>
+
+            <a href="#none" class="bottom_banner">
+                <img src="./img/bottom_small_banner.png" alt="베컴 개봉, 12월 12일">
+                <p class="small_banner_desc">OUT NOW!</p>
+            </a>
+        </div>
+    </main>
+    <div class="footer_wrap">
+        <footer class="footer">
+            <h2 class="hide">사이트 이용안내</h2>
+            <div class="term">
+                <h3 class="hide">약관 및 정책</h3>
+                <ul>
+                    <li><a href="#none">회사소개</a></li>
+                    <li><a href="#none">지속가능경영</a></li>
+                    <li><a href="#none">IR</a></li>
+                    <li><a href="#none">채용정보</a></li>
+                    <li><a href="#none">광고/제휴/출점문의</a></li>
+                    <li><a href="#none">이용약관</a></li>
+                    <li><a href="#none">편성기준</a></li>
+                    <li class="privacy"><a href="#none">개인정보처리방침</a></li>
+                    <li><a href="#none">법적고지</a></li>
+                    <li><a href="#none">이메일주소무단수집거부</a></li>
+                    <li><a href="#none">윤리경영</a></li>
+                    <li><a href="#none">사이버감사실</a></li>
+                </ul>
+            </div>
+            <div class="footer_bottom">
+                <div class="family_site" id="family_site">
+                    <h3><a href="#none">계열사 바로가기</a></h3>
+                    <dl class="family_site_block">
+                        <dt><a href="#none">CJ그룹</a></dt>
+                        <dd><a href="#none">CJ주식회사</a></dd>
+                        <dt><a href="#none">식품 &amp; 식품서비스</a></dt>
+                        <dd><a href="#none">CJ제일제당</a></dd>
+                        <dd><a href="#none">CJ푸드빌</a></dd>
+                        <dd><a href="#none">CJ프레시웨이</a></dd>
+                        <dt><a href="#none">생명공학</a></dt>
+                        <dd><a href="#none">CJ제일제당 BIO사업부문</a></dd>
+                        <dd><a href="#none">CJ Feed&amp;Card</a></dd>
+                        <dt><a href="#none">물류 &amp; 신유통</a></dt>
+                        <dd><a href="#none">CJ대한통운</a></dd>
+                        <dd><a href="#none">CJ대한통운 건설부문</a></dd>
+                        <dd><a href="#none">CJ올리브영</a></dd>
+                        <dd><a href="#none">CJ올리브네트웍스</a></dd>
+                        <dd><a href="#none">CJ ENM 커머스부문</a></dd>
+                        <dt><a href="#none">엔터테인먼트 &amp; 미디어</a></dt>
+                        <dd><a href="#none">CJ ENM 엔터테인먼트부문</a></dd>
+                        <dd><a href="#none">CJ CGV</a></dd>
+                    </dl>
+                    <button type="button" class="family_site_btn" title="선택한 계열사로 이동합니다." onclick="()">GO</button>
+                </div>
+
+                <div class="company_info">
+                    <address>(04377)서울특별시 용산구 한강대로 23길 55, 아이파크몰 6층(한강로동)</address>
+
+                    <div class="footer_bottom_cont1">
+                        <p class="bar">대표이사 : 허민회</p>
+                        <p class="bar">사업자등록번호 : 104-81-45690</p>
+                        <p>통신판매업신고번호 : 2017-서울용산-0662 사업자정보확인</p>
+                    </div>
+                    <div class="footer_bottom_cont2">
+                        <p class="bar">호스팅사업자 : CJ올리브네트웍스</p>
+                        <p class="bar">개인정보보호 책임자 : 도형구</p>
+                        <p>대표이메일 : cjcgvmaster@cj.net</p>
+                    </div>
+
+                    <p>© CJ CGV. All Rights Reserved</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+<!-- SCRIPT -->
+<script>
+    // Main
+    // 메인 비디오 정지/재생 효과
+    document.addEventListener("DOMContentLoaded", function () {
+        const movieVideo = document.querySelector(".video");
+        const playButton = document.querySelector(".play");
+        const stopButton = document.querySelector(".stop");
+
+        playButton.addEventListener("click", function () {
+            // console.log("재생!");
+            playButton.style.display = "none";
+            stopButton.style.display = "block";
+            movieVideo.play();
+        });
+
+        stopButton.addEventListener("click", function () {
+            playButton.style.display = "block";
+            stopButton.style.display = "none";
+            movieVideo.pause();
+        });
+    });
+
+    // 무비차트, 상영예정작 선택 시 전환 효과
+    const movieChart = document.querySelector(".movie_chart");
+    const tbdChart = document.querySelector(".tbd_chart");
+    const activeMenu = document.querySelector(".movie_chart_wrap");
+    const activeMenuTitOne = document.querySelector('.cate01')
+    const activeMenuTitTwo = document.querySelector('.cate02')
+
+    activeMenu.addEventListener("click", (e) => {
+        const filter = e.target.dataset.category;
+
+        // 무비차트와 상영예정작을 처리
+        if (filter === "chart") {
+            movieChart.style.display = "flex";
+            tbdChart.style.display = "none";
+            activeMenuTitOne.classList.add('category--selected');
+            activeMenuTitTwo.classList.remove('category--selected');
+        } else if (filter === "tbd") {
+            movieChart.style.display = "none";
+            tbdChart.style.display = "flex";
+            activeMenuTitTwo.classList.add('category--selected');
+            activeMenuTitOne.classList.remove('category--selected');
+        } else {
+            return;
+        };
+    })
+
+    // 상영예정작 슬라이드 효과
+    document.addEventListener("DOMContentLoaded", function () {
+        const tbdBox = document.querySelector('.tbd_chart')
+        const nextButton = document.querySelector(".next");
+        const prevButton = document.querySelector(".pre")
+        let currentPosition = 0;
+
+        function chartSlideNextTBD() {
+            currentPosition -= 980;
+            if (currentPosition < -1960) {
+                currentPosition = -1960;
+            }
+            const translateValue = `translateX(${currentPosition}px)`;
+            tbdBox.style.transform = translateValue;
+        }
+
+        function chartSlidePrevTBD() {
+            currentPosition += 980;
+            if (currentPosition > 0) {
+                currentPosition = 0;
+            }
+            const translateValue = `translateX(${currentPosition}px)`;
+            tbdBox.style.transform = translateValue;
+        }
+
+        if (nextButton) {
+            nextButton.addEventListener("click", chartSlideNextTBD);
+        }
+
+        if (prevButton) {
+            prevButton.addEventListener('click', chartSlidePrevTBD);
+        }
+    });
+
+    // 무비차트 슬라이드 효과
+    document.addEventListener("DOMContentLoaded", function () {
+        const movieBox = document.querySelector('.movie_chart')
+        const nextButton = document.querySelector(".next");
+        const prevButton = document.querySelector(".pre")
+
+        function chartSlideNext() {
+            const translateValue = `translateX(-980px)`;
+            movieBox.style.transform = translateValue;
+        }
+
+        function chartSlidePrev() {
+            const translateValue = `translateX(0px)`;
+            movieBox.style.transform = translateValue;
+        }
+
+        if (nextButton) {
+            nextButton.addEventListener("click", chartSlideNext);
+        }
+
+        if (prevButton) {
+            prevButton.addEventListener('click', chartSlidePrev)
+        }
+    });
+
+    // EVENT 슬라이드 효과
+    let currentIndex = 0;
+    const totalSlides = 2;
+
+    function eventSlide() {
+        currentIndex = (currentIndex + 1) % totalSlides;
+        const translateValue = -currentIndex * 980 + "px";
+        const eventBox1 = document.querySelector(".eventBox1");
+        const eventBox2 = document.querySelector(".eventBox2");
+
+        eventBox1.style.transform = "translateX(" + translateValue + ")";
+        eventBox2.style.transform = "translateX(" + translateValue + ")";
+    }
+
+    // 특별관 강조 효과
+    document.addEventListener("mouseover", function (e) {
+        let spItems = document.querySelectorAll(".specialHall_item");
+        let clickedItem = e.target.closest(".specialHall_item");
+
+        // 어떤 아이템이 true 값일 때
+        if (clickedItem) {
+            for (let item of spItems) {
+                item.classList.remove("special_select");
+            }
+            clickedItem.classList.add("special_select");
+        }
+    });
+
+    // Footer
+    // 패밀리 사이트 드롭 다운 효과
+    document.addEventListener("DOMContentLoaded", function () {
+        const familySiteBlock = document.querySelector(".family_site_block");
+        const familySiteBtn = document.querySelector(".family_site_btn");
+
+        familySiteBtn.addEventListener("click", function () {
+            const isDisplayed = window.getComputedStyle(familySiteBlock).display === "block";
+            familySiteBlock.style.display = isDisplayed ? "none" : "block";
+        });
+    });
+</script>
+
+</html>

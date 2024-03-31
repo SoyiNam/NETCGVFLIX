@@ -1,0 +1,22 @@
+/* Global */
+:root {
+    /* App Colors */
+    --color-primary: var(--color-red);
+    --color-primary-variant: var(--color-gray);
+    --color-accent: var(--color-yellow);  
+    --color-accent-variant: var(--color-orange);
+    --color-text: var(--color-white);
+  
+  /* Background */
+  --home-bg-gradient: linear-gradient(180deg, rgba(20,50,103,1) 0%, rgba(5,10,19,1) 100%);
+  
+    /* Colors */
+    --color-red: #f07469;
+    --color-black: #050a13;
+    --color-blue: #03e8f9;
+    --color-orange: #fd6413;
+    --color-gray: #1b1e26;
+    /* --color-deap_blue: #3995DB; */
+    --color-yellow: #FAC746;
+  
+}
